@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   <!--Navbar Section-->
+   <header>
+    <nav>
+      <div class="nav_logo">
+        <a href="#">
+          <img src="foodlogo.jpg" alt="foodlogo" />
+          <h2>Restaurant</h2>
+        </a>
+      </div>
+
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="menu_btn bx bx-menu"></i>
+        <i class="close_btn bx bx-x"></i>
+      </label>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <!-- Hero Section -->
+   <section class="hero_section">
+    <div class="section_container">
+      <div class="hero_container">
+        <div class="text_section">
+          <h2> अस्सल मराठी</h2>
+          <h3>
+            स्वदेशी थाळी स्वदेशी खान|वळ</h3>
+          <p>
+            Welcome to our Restaurant, to taste Authentic Food.
+          </p>
+
+          <div class="hero_section_button">
+            <button class="button">Order Online</button>
+            <button class="button">Order In Restaurant</button>
+          </div>
+        </div>
+
+        <div class="image_section">
+          <img src="Thali1.jpg" alt="Thali1" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- About Us Section -->
+    <section class="about_us" id="about">
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+            <h2 class="section_title">About Us</h2>
+            <p>
+              We at Restaurant House, located in Nagpur, Maharashtra, are one of the
+              most favorite Restaurant in our city. Our goal is to
+              the best Thali to give our guests, ensuring an authentic
+              Thali experience in a cultural environment. 
+              We aim to bring a sense of relaxation to the city
+              in stressfull life,So plz visit to our Authentic Restaurant with our family and friends.
+            </p>
+          </div>
+
+          <div class="image_section">
+            <img src="Thali2.jpg" alt="Thali2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Services Section -->
+      <section class="services" id="service">
+        <h2 class="section_title">Our Menus</h2>
+        <div class="section_container">
+          <div class="service_container">
+            <div class="services_items">
+              <img src="MaharashtrianThali.jpg" alt="MaharashtrianThali " />
+              <div class="services_text">
+                <h3>Maharashtrian Thali</h3>
+                <p>
+                  A typical Vegetarian Menu features
+                   koshimbir, Aamti or varan, Roti made with different flours,
+                   Vegetables, Lentils, Pickles and other condiments, Drinks and sweets
+                </p>
+              </div>
+            </div>
+            <div class="services_items">
+              <img src="PunjabiThali.jfif" alt="PunjabiThali" />
+              <div class="services_text">
+                <h3>Punjabi Thali</h3>
+                <p>
+                  Punjabi's have a hearty meal for breakfast and lunch.
+                   I remember eating hot garam garam aloo paratha with a 
+                   big glass of lassi in Punjab. Punjabi  gobi paratha are other famous 
+                   paratha recipes from this cuisine.
+                </p>
+              </div>
+            </div>
+            <div class="services_items">
+              <img src="GujratiThali.jpg" alt="GujratiThali" />
+              <div class="services_text">
+                <h3>Gujrati Thali</h3>
+                <p>The Gujarati Thali consists of various dishes like ringana
+                   methi nu shak, Gujarati khatti mithi daal.</p>
+              </div>
+            </div>
+            <div class="services_items">
+              <img src="SpecialThali.jpg" alt="SpecialThali" />
+              <div class="services_text">
+                <h3>Special Thali</h3>
+                <p>
+                  A thali meal is a traditional Indian meal consisting of
+                   various dishes served on a single platter. 
+                </p>
+              </div>
+            </div>
+            <div class="services_items">
+              <img
+                src="MixvegThali.jpg"
+                alt="MixvegThali"
+              />
+              <div class="services_text">
+                <h3>MixVeg Thali</h3>
+                <p>It has the perfect combination of carbohydrates, proteins, fats, vitamins,
+                   minerals, and fiber. If you want to enjoy these healthy meals without 
+                   the bother of having to cook them, Mealawe is the right choice for you.</p>
+              </div>
+            </div>
+            <div class="services_items">
+              <img src="BengaliThali.jpg" alt="BengaliThali" />
+              <div class="services_text">
+                <h3>Bengali Thali</h3>
+                <p>
+                  Bengali cuisine is known for its rich and diverse flavors, with a 
+                  focus on fish, rice, and a variety of spices. Some popular dishes in
+                   Bengali cuisine include.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- Why Us Section -->
+    <section class="why_us" id="why">
+      <h2 class="section_title">Why Us?</h2>
+      <div class="section_container">
+        <div class="why_container">
+          <div class="why_items">
+            <img src="GoodFood.jpg" alt="GoodFood" />
+            <div class="why_us_text">
+              <h3>Delicious Food</h3>
+              <p>
+                Savor the flavors of our gourmet creations, where every dish 
+                is a masterpiece of taste and presentation.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="Pleasant.jfif" alt="Pleasant" />
+            <div class="why_us_text">
+              <h3>Pleasant Ambience</h3>
+              <p>
+                Experience the perfect blend of comfort and style in our 
+                inviting space, where every detail is crafted for your delight
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="hospitality.png" alt="hospitality" />
+            <div class="why_us_text">
+              <h3>Hospitality</h3>
+              <p>
+                Our team is committed to providing exceptional hospitality,
+                 making you feel valued and cared for with every interaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Gallery Section -->
+     <section class="gallery" id="gallery">
+      <h2 class="section_title">Gallery</h2>
+      <div class="section_container">
+        <div class="gallery_container">
+          <div class="gallery_items">
+            <img src="Shrikhand.jfif" alt="Shrikhand" />
+          </div>
+          <div class="gallery_items">
+            <img src="Kitchen.jpg" alt="Kitchen" />
+          </div>
+          <div class="gallery_items">
+            <img src="Self.jpg" alt="Self" />
+          </div>
+          <div class="gallery_items">
+            <img src="Dining.jfif" alt="Dining" />
+          </div>
+          <div class="gallery_items">
+            <img src="Counter.jpg" alt="Counter" />
+          </div>
+          <div class="gallery_items">
+            <img src="FastFood.jfif" alt="FastFood" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Contact Section -->
+     <section class="contact" id="contact">
+      <h2 class="section_title">Contact Us</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">Your Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Textarea</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>Our Location</h3>
+                <p>Nagpur-Maharashtra</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>General Enquries</h3>
+                <p>uniquethali@.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>Call Us</h3>
+                <p>+91-1234567890</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>Our Timing</h3>
+                <p>Mon-Sun : 11:00 AM - 12:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Footer Section -->
+   <footer>
+    <div class="section_container">
+      <div class="footer_section">
+        <div class="footer_logo">
+          <a href="index.html">
+            <img src="foodlogo.jpg" alt="foodlogo" />
+            <h2>Coffee</h2>
+          </a>
+        </div>
+
+        <div class="useful_links">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#why">Why Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="contact_us">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <i class="bx bx-current-location"></i>
+              <span>Nagpur-Maharashtra</span>
+            </li>
+            <li>
+              <i class="bx bxs-phone-call"></i> <span>+91-1234567890</span>
+            </li>
+            <li>
+              <i class="bx bxs-time-five"></i>
+              <span>Mon-Sun : 11:00 AM - 12:00 PM</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="follow_us">
+          <h3>Follow</h3>
+          <i class="bx bxl-facebook-circle"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-instagram-alt"></i>
+        </div>
+      </div>
+    </div>
+    <p>Copyright @ 2024 reserved uniquethali@.com</p>
+  </footer>
+</body>
+</html>
+
+
+  </body>
+</html>
